@@ -1,0 +1,136 @@
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 0px 0px 0px 4px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav h3 {
+  padding: 0px 0px 0px 4px;
+  margin: 0px;
+  font-size: 2rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav h3:hover {
+  color: #f1f1f1;
+}
+.sidenav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 17px;
+}
+.sidenav ul li > a {
+  font-size: 1.1rem;
+  color: #17a2b8;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* @media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+} */
+#doc-button {
+  position: fixed;
+  top: 12px;
+  left: 0;
+  z-index: 1000;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  color: #f8f9fa;
+  padding: 4px 6px 4px 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.5s;
+}
+#main,
+body,
+html {
+  height: 100%;
+}
+body {
+  margin: 0px;
+}
+#main {
+  width: 95%;
+}
+#footer {
+  float: right;
+  text-align: center;
+  width: 100%;
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+.thead-parameters > tr {
+  background-color: #343a40;
+  color: white;
+}
+.prettyprint > code {
+  background-color: #343a40;
+}
+.pln,
+.pun {
+  color: white;
+}
+.com {
+  color: #8e908c;
+}
+*:not(td):not(.prettyprint) > code {
+  background-color: rgba(27, 31, 35, 0.15);
+  padding: 2px;
+}
+h4.name {
+  background-color: #343a40;
+  color: white;
+  padding: 6px 3px 6px 3px;
+  border-radius: 3px;
+}
+article > pre {
+  background: #343a40;
+}
+.prettyprint.linenums li.selected,
+.prettyprint.linenums li.selected * {
+  background-color: rgb(255, 255, 0, 0.3);
+}

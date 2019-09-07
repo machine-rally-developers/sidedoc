@@ -1,0 +1,26 @@
+{
+  "name": "sidedoc",
+  "version": "1.0.6",
+  "description": "A side doc template for jsdoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machine-rally-developers/sidedoc.git"
+  },
+  "keywords": [
+    "jsdoc",
+    "sidenav",
+    "template",
+    "sidedoc",
+    "documentation"
+  ],
+  "author": "machine-rally-developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/machine-rally-developers/sidedoc/issues"
+  },
+  "homepage": "https://github.com/machine-rally-developers/sidedoc#readme"
+}
